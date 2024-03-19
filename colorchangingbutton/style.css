@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+button {
+    color: black;
+    font-size: large;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    background-color: rgb(59, 56, 56);
+
+}
+
+div :hover {
+ background-color: aquamarine;
+ color: black;
+ font-weight: 1000; 
+ border: 2pxpx solid black; 
+ border-radius: 8px;
+ 
+padding: 2px;
+}

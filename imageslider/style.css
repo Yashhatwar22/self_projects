@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(185, 245, 5);
+}
+.image-container {
+    width: 60%;
+   min-height: 80vh;
+    background: url(1.jpeg) center/cover fixed no-repeat;
+   border: 8px solid rgb(225, 255, 0);
+   box-shadow: 2px 2px 5px 5px rgb(114, 117, 81);
+    margin: 4rem auto;
+   position: relative;
+}
+.left {
+    height: 50px;
+    width: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+   cursor: pointer;
+   border: 2px solid purple;
+   border-radius: 2px;
+   background-color: rgb(172, 14, 224);
+}
+.right {
+    height: 50px;
+    width: 40px;
+    color: rgb(244, 240, 240);
+    font-weight: 900;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+    cursor: pointer;
+    border: 2px solid purple;
+    border-radius: 2px;
+    background-color: rgb(172, 14, 224);
+   
+}

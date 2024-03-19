@@ -1,0 +1,62 @@
+body {
+   background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-top: 80px;
+   background-color: rgb(223, 238, 252); 
+   height: 200px;
+   width: 400px;
+   font-size: 30px;
+  padding: 30px;
+   box-shadow: 2px 2px 5px 5px rgb(154, 154, 154);
+  border-radius: 7px;
+  
+}
+button {
+    height: 30px;
+    width: 80px;
+   
+    margin-top: 5px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    padding: 1px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: green;
+
+}
+.lower{
+    color: rgb(243, 5, 5);
+    font-size: 17px;
+    background-color: aliceblue;
+    border-color: aqua;
+    border-radius: 2px;
+    border: 1px solid rgb(79, 181, 244);
+   
+}
+.add{
+    color: rgb(50, 5, 252);
+    font-size: 17px;
+    background-color: aliceblue;
+    border-color: aqua;
+    border-radius: 2px;
+    border: 1px solid rgb(79, 181, 244);
+}
+button:hover {
+    background-color: rgb(243, 246, 175);
+
+}
